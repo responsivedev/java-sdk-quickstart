@@ -29,6 +29,7 @@ public class WordCount {
         props.put(ConsumerConfig.SESSION_TIMEOUT_MS_CONFIG, 10_000);
         props.put(StreamsConfig.COMMIT_INTERVAL_MS_CONFIG, 1_000);
 
+        props.put(ResponsiveConfig.RESPONSIVE_LICENSE_CONFIG, "<YOUR_LICENSE>");
         props.put(ResponsiveConfig.STORAGE_BACKEND_TYPE_CONFIG, StorageBackend.MONGO_DB.name());
         props.put(ResponsiveConfig.MONGO_ENDPOINT_CONFIG, "mongodb://localhost:27017");
 

@@ -143,7 +143,7 @@ import dev.responsive.kafka.api.config.StorageBackend;
 ```java
 props.put(ResponsiveConfig.STORAGE_BACKEND_TYPE_CONFIG, StorageBackend.MONGO_DB.name());
 props.put(ResponsiveConfig.MONGO_ENDPOINT_CONFIG, "mongodb://localhost:27017");
-props.put(ResponsiveConfig.LICENSE, "<your-license>");
+props.put(ResponsiveConfig.RESPONSIVE_LICENSE_CONFIG, "<your-license>");
 ```
 
 > Note: if you have not yet obtained a trial license for the ResponsiveSDK,
