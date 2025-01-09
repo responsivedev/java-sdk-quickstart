@@ -14,7 +14,8 @@ dependencies {
     implementation(libs.guava)
     implementation(libs.kafka)
     implementation(libs.responsive)
-    implementation(libs.logging)
+    implementation(libs.spring.boot)
+    implementation(libs.spring.kafka)
 }
 
 java {

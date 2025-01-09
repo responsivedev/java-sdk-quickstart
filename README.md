@@ -18,7 +18,7 @@ In order to run this quickstart, you must have access to the following systems:
 ## Prepare Dependencies
 
 The first step is to deploy a Kafka broker and a MongoDB instance. You can use the
-following `docker-compose.yml` file (which is also included in `<root>/src` of this repository):
+following `docker-compose.yml` file (which is also included in `<root>/etc` of this repository):
 
 ```yaml docker-compose.yml
 ---
