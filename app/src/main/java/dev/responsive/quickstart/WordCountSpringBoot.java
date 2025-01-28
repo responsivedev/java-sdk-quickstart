@@ -57,7 +57,7 @@ public class WordCountSpringBoot {
 
     props.put(ResponsiveConfig.RESPONSIVE_LICENSE_CONFIG, "<YOUR_LICENSE>");
     props.put(ResponsiveConfig.STORAGE_BACKEND_TYPE_CONFIG, StorageBackend.MONGO_DB.name());
-    props.put(ResponsiveConfig.MONGO_ENDPOINT_CONFIG, "mongodb://localhost:27017");
+    props.put(ResponsiveConfig.MONGO_CONNECTION_STRING_CONFIG, "mongodb://localhost:27017");
 
     return new KafkaStreamsConfiguration(props);
   }

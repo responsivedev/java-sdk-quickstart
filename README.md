@@ -142,7 +142,7 @@ import dev.responsive.kafka.api.config.StorageBackend;
 3. Add the configurations required to talk to MongoDB:
 ```java
 props.put(ResponsiveConfig.STORAGE_BACKEND_TYPE_CONFIG, StorageBackend.MONGO_DB.name());
-props.put(ResponsiveConfig.MONGO_ENDPOINT_CONFIG, "mongodb://localhost:27017");
+props.put(ResponsiveConfig.MONGO_CONNECTION_STRING_CONFIG, "mongodb://localhost:27017");
 props.put(ResponsiveConfig.RESPONSIVE_LICENSE_CONFIG, "<your-license>");
 ```
 
@@ -193,9 +193,11 @@ same steps outlined above.
 Congrats! You have successfully run through the quickstart for the
 Responsive SDK. Here's what you can do next:
 
-// TODO(agavra): add links to these steps below
-
-1. Test this on one of your existing apps. Read the more detailed migration instructions for
+1. Test this on one of your existing apps. Read
+   the [migration instructions](https://docs.responsive.dev/sdk/migrate) for
    onboarding more complicated apps.
-1. Read about our advanced functionality like async processing or row-level TTL.
-1. Explore our other products like the Control Plane and RS3.
+1. Read about our advanced functionality
+   like [async processing](https://docs.responsive.dev/sdk/async-processing)
+   or [row-level TTL](https://docs.responsive.dev/sdk/stores#row-level-ttl).
+1. Explore our other products like the [Control Plane](https://www.responsive.dev/control-plane)
+   and [RS3](https://www.responsive.dev/rs3-storage).
