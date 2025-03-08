@@ -146,9 +146,9 @@ props.put(ResponsiveConfig.MONGO_CONNECTION_STRING_CONFIG, "mongodb://localhost:
 props.put(ResponsiveConfig.RESPONSIVE_LICENSE_CONFIG, "<your-license>");
 ```
 
-> Note: if you have not yet obtained a trial license for the ResponsiveSDK,
-> make sure to get a free one [here](https://responsive.dev/sdk/get-started) (it takes 2 minutes and
-> its free).
+> **Note**: if you have not yet obtained a license for Responsive,
+> make sure to get a free one [here](https://cloud.responsive.dev/) (it takes 2 minutes, and
+> you can start free).
 
 That's all you have to do! Underneath the hood, this replaces a bunch
 of components of Kafka Streams from the state storage to the way
